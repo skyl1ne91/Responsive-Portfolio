@@ -293,7 +293,7 @@ label{
 #four{
 
     position: fixed;
-    bottom: 462px;
+    bottom: 443px;
     left: 470px;
 
 
@@ -303,7 +303,7 @@ label{
 #five{
 
     position: fixed;
-    bottom: 345px;
+    bottom: 328px;
     left: 470px;
 
 
@@ -463,7 +463,7 @@ label{
 
 #containerport{
     left: 6px;
-    top: 88px;
+    top: 100px;
     width: 753px;
 }
 #one{
@@ -487,6 +487,8 @@ label{
     height: 115px;
     left: 189px;
     top: 343px;
+    display: hidden;
+
 
 
 }
