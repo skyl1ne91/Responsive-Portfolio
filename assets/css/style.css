@@ -1,0 +1,521 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* this controls all the pages on their footer and header */
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/eight_horns.png")
+}
+header{
+    background: white;
+    padding: 20px;
+    background-color: white;
+    border-bottom: solid 1px lightgrey;
+    height: 83px;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: -8px;
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    margin-left: 200px;
+    padding: 10px;
+    max-width: 380px;
+    width: 100%;
+    background-color: #4aaaa5;
+    height:74px ;
+    overflow: auto;
+    position: fixed;
+    top: -24px;
+    left: 88px;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+h2{
+    font-size: 25px;
+    color: #4aaaa5;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-weight: 700
+
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 5px;
+    margin-left: 2px;
+
+}
+/* this is the links look */
+a{
+
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    border-right: 1px solid lightgrey;
+
+  
+
+}
+/* this are the links on the top right */
+#about{
+
+    position: relative;
+    top: -10px;
+    right: 396px;
+
+}
+#portfolio{
+    position: relative;
+    top: -10px;
+    right:260px;
+
+}
+#contact{
+    position: relative;
+    top: -10px;
+    right: 115px;
+
+}
+ /* this is for the index body */
+#container{
+
+    max-width: 960px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: solid 1px lightgrey;
+    position: fixed;
+    left: 287px;
+    top: 100px;
+
+}
+#image{
+    float: left;
+    margin-right: 10px;
+
+}
+/* this helps control the footer of all pages */
+footer{
+
+    background: white;
+    
+    background-color:#666666;
+    border-top: 10px #4aaaa5 solid;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    color: white;
+    left: 0px;
+    
+
+}
+
+#foot{
+
+    position: relative;
+    bottom: -24px;
+    font-size: 15px;
+
+
+}
+
+
+/* contact.html page starts here */
+
+
+#containerform{
+
+    max-width: 960px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: solid 1px lightgrey;
+    position: relative;
+    left: 280px;
+    top: 90px;
+    
+    height:525px;
+
+
+
+}
+input[type=submit]{
+    background: #4aaaa5;
+    color: white;
+    width: 70px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+
+    
+
+}
+input[type=text]{
+
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+#message{
+    height: 200px;
+    margin-top: 10px;
+
+}
+
+label{
+    position: relative;
+    top: 5px;
+
+
+}
+
+
+/* portfolio.html starts here*/
+
+
+#containerport{
+
+    max-width: 960px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: solid 1px lightgrey;
+    position: fixed;
+    left: 287px;
+    top: 100px;
+    height:500px;
+}
+
+#onei{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    top: -56px;
+    left: -2px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+
+
+}
+#twoi{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top: -106px;
+    left: -2px;
+
+}
+#threei{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top: -156px;
+    left: -2px;
+
+
+}
+#fouri{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top:-434px;
+    left: 170px;
+}
+#fivei{
+    padding: 10px;
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    top: -364px;
+    left: 170px;
+
+
+}
+
+#one{
+
+    position: relative;
+
+}
+
+#two{
+
+    position: relative;
+    top: -50px;
+
+
+}
+
+#three{
+
+    position: relative;
+    top: -100px;
+
+
+}
+
+#four{
+
+    position: fixed;
+    bottom: 462px;
+    left: 470px;
+
+
+
+}
+
+#five{
+
+    position: fixed;
+    bottom: 345px;
+    left: 470px;
+
+
+
+}
+
+
+@media screen and (max-width:640px){
+    #greenhorn{
+        width:100%;
+        position: fixed;
+        left: -201px;
+        
+}
+
+/* this is for the contact page */
+#containerform{
+    position: fixed;
+    width: 360px;
+    left: 8px;
+    height: 380px;
+    top: 100px;
+
+
+
+}
+#toclose{
+
+}
+#message{
+    height: 50px;
+    position: relative;
+    top: 5px;
+    
+    
+}
+
+#concrete{
+    width:335px;
+    position: fixed;
+    left: 18px;
+    top: 205px;
+
+}
+/* this is for the about page fixes */
+#container{
+    position: relative;
+    left: 1px;
+    height: 437px;
+
+
+}
+#create{
+    position: relative;
+    left: 188px;
+    top: 50px;
+
+
+    
+}
+#click{
+    height: 240px;
+    position: relative;
+    top: -20px;
+}
+#image{
+    float:none;
+    width: 150px;
+    height: 88px;
+    top: -4px;
+    position: relative;
+    left: 90px;
+
+}
+
+#containerport{
+    position: fixed;
+    left: 20px;
+    width: 345px;
+    height: 535px;
+}
+/* this is the footer for the portfolio and for the page itself */
+#footerb{
+    display: none;
+}
+
+#fouri{
+    display: none;
+
+}
+#fivei{
+    display: none;
+
+}
+#one{
+    position: relative;
+    left: 66px;
+    width: 200px;
+    height: 125px;
+
+}
+#two{
+    position: relative;
+    left: 66px;
+    width: 200px;
+    height: 125px;
+
+}
+#three{
+    position: relative;
+    left: 66px;
+    width: 200px;
+    height: 125px;
+
+}
+#onei{
+    left: 64px;
+    width: 200px;
+
+
+}
+#twoi{
+    left: 64px;
+    width: 200px;
+
+}
+#threei{
+    left: 64px;
+    width: 200px;
+
+}
+
+
+}
+
+@media screen and (max-width:768px){
+
+/* this is for the nav bar and for the name on top of the screen */
+#greenhorn{
+    left: -201px;
+}
+#create{
+    position: relative;
+    left: 200px;
+}
+
+/* index.html page */
+
+#container{
+    left: 6px;
+    width: 753px;
+    top: 100px;
+
+}
+
+/* portfolio.html starts here */
+
+#containerport{
+    left: 6px;
+    top: 88px;
+    width: 753px;
+}
+#one{
+    height: 115px;
+}
+#two{
+    height: 115px;
+
+}
+#three{
+    height: 115px;
+}
+#four{
+    height: 115px;
+    left: 189px;
+    top: 212px;
+
+
+}
+#five{
+    height: 115px;
+    left: 189px;
+    top: 343px;
+
+
+}
+#fouri{
+    top: -463px;
+
+}
+#fivei{
+    top: -379px;
+
+}
+
+/* contact.html starts here*/
+
+
+#containerform{
+    left: 1px;
+    top: 100px;
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
