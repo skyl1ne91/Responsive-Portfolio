@@ -251,7 +251,7 @@ label{
     width: 150px;
     text-align: center;
     height: 30px;
-    top:-434px;
+    top:-554px;
     left: 170px;
 }
 #fivei{
@@ -262,7 +262,7 @@ label{
     width: 150px;
     text-align: center;
     height: 30px;
-    top: -364px;
+    top: -604px;
     left: 170px;
 
 
@@ -292,9 +292,9 @@ label{
 
 #four{
 
-    position: fixed;
-    bottom: 443px;
-    left: 470px;
+    position: relative;
+    bottom: 498px;
+    left: 172px;
 
 
 
@@ -302,9 +302,9 @@ label{
 
 #five{
 
-    position: fixed;
-    bottom: 328px;
-    left: 470px;
+    position: relative;
+    bottom: 548px;
+    left: 172px;
 
 
 
@@ -382,7 +382,7 @@ label{
 #containerport{
     position: fixed;
     left: 20px;
-    width: 345px;
+    width: 360px;
     height: 535px;
 }
 /* this is the footer for the portfolio and for the page itself */
@@ -418,6 +418,12 @@ label{
     width: 200px;
     height: 125px;
 
+}
+#four{
+    display: none;
+}
+#five{
+    display: none;
 }
 #onei{
     left: 64px;
@@ -479,33 +485,34 @@ label{
 #four{
     height: 115px;
     left: 189px;
-    top: 212px;
+    bottom: 543px;
 
 
 }
 #five{
     height: 115px;
     left: 189px;
-    top: 343px;
+    bottom: 593px;
     display: hidden;
 
 
 
 }
 #fouri{
-    top: -463px;
+    top: -599px;
+    left: 187px;
 
 }
 #fivei{
-    top: -379px;
-
+    top: -649px;
+    left: 187px;
 }
 
 /* contact.html starts here*/
 
 
 #containerform{
-    left: 1px;
+    left: 10px;
     top: 100px;
 
 
